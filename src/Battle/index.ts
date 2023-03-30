@@ -1,7 +1,7 @@
-// import Battle from './Battle';
+import Battle from './Battle';
 
-// export default Battle;
+export default Battle;
 
 // começar 
 
-// import Race from '../Races/Race';
+// import Race from '../Races';
