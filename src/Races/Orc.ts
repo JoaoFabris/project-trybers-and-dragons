@@ -2,7 +2,7 @@ import Race from './Race';
 
 export default class Orcs extends Race {
   protected static _createdRacesInstances = 0;
-  protected readonly _maxLifePoints: number; // readonly cannot be changed, protected can only be accessible inside class or extented. and private only inside the class 
+  protected readonly _maxLifePoints: number; // readonly cannot be changed, protected can only be accessible inside the class or extented. and private only inside the class 
   constructor(name: string, dexterity: number) {
     super(name, dexterity);
     this._maxLifePoints = 74;
